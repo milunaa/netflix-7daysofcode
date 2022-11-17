@@ -1,0 +1,54 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__logo-img{
+    width: 5.8rem;
+    cursor: pointer;
+}
+
+.cabecalho__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.697);
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.cabecalho__menu-lista{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.cabecalho__menu-itens{
+    padding-right: 0.9rem;
+}
+
+.cabecalho__menu-esquerda-itens:hover{
+    color: #ffffff;
+}
+
+.cabecalho__menu-direita{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.cabecalho__menu-direita-itens{
+    padding-right: 1.2rem;
+}
+
+.cabecalho__user{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__user-img{
+    width: 2rem;
+    margin-right: 0.5rem;
+    border-radius: 3px;
+}

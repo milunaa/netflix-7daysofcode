@@ -1,0 +1,28 @@
+.minha__lista{
+    height: 200px;
+}
+
+.minha__lista-titulo{
+    color: #E5E5E5E5;
+    font-size: 18px;
+    line-height: 17px;
+    font-weight: 600;
+}
+
+.minha__lista-lista{
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px 0;
+}
+
+.minha__lista-item{
+    padding: 0 2px;
+    transition: 250ms all;
+}
+
+.minha__lista-img{
+    max-width: 100%;
+    padding-right: 5px;
+}

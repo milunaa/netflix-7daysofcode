@@ -1,0 +1,66 @@
+footer{
+    margin-top: 2rem;
+}
+  
+.social-links{
+    height: 25px;
+    width: 50%;
+}
+  
+.social-links i{
+    font-size: 22px;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+  
+.link-conteudo{
+    margin: 20px auto;
+    color: grey;
+}
+  
+.link-conteudo__info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+}
+  
+.link-conteudo__info ul{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    padding: initial;
+}
+  
+.link-conteudo__info ul li{
+    list-style: none;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+  
+.link-conteudo__info ul li:hover{
+    text-decoration: underline;
+}
+  
+.link-conteudo__servico{
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+  
+.link-conteudo__servico-code{
+    background: 0 0;
+    color: grey;
+    border: solid 1px grey;
+    padding: 0.5rem;
+}
+  
+.link-conteudo__servico-code:hover{
+    color: white;
+    border: solid 1px white;
+}
+  
+.link-conteudo__copyright{
+    font-size: 11px;
+    margin-bottom: 15px;
+    padding: 1rem 4px;
+}

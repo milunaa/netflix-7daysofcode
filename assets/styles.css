@@ -1,7 +1,7 @@
 @import url(./css/cabecalho.css);
 @import url(./css/banner.css);
-@import url(./css/minhaLista.css);
-@import url(./css/emAlta.css);
+@import url(./css/trilhos.css);
+@import url(./css/seriesEstrangeiras.css);
 
 *{
     box-sizing: border-box;
@@ -19,4 +19,9 @@ body{
     margin: 0 auto;
     height: 100%;
     padding: 0 3rem;
+}
+
+.-animacao:hover{
+    margin: 0 40px;
+    transform: scale(1.2);
 }
